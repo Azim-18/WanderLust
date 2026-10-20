@@ -10,9 +10,14 @@ body {
 }
 
 /* Navbar */
-.navbar {
-    height: 5rem;
-    background-color: white;
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #fe424d !important;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .fa-airbnb {
